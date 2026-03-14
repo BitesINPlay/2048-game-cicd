@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2048 Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>2048</h1>
+    <p>Първа версия на играта</p>
+
+    <div class="top-bar">
+      <div class="score-box">Точки: <span id="score">0</span></div>
+      <button onclick="startGame()">Нова игра</button>
+    </div>
+
+    <div id="message" class="message"></div>
+    <div id="board" class="board"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
