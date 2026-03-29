@@ -82,7 +82,7 @@ function slide(row) {
 
       if (filteredRow[i] === 2048 && !won) {
         won = true;
-        setMessage("Браво! Достигна 2048!");
+        setMessage("Bavo! You reach score of 2048");
       }
 
       filteredRow[i + 1] = 0;
@@ -194,7 +194,7 @@ function canMove() {
 function checkGameOver() {
   if (!canMove()) {
     gameOver = true;
-    setMessage("Край на играта!");
+    setMessage("Game over!");
   }
 }
 
